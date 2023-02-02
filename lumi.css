@@ -52,9 +52,9 @@
 #headr{
     color: #5e068a99
 }
-#si p{
+/* #si p{
     font-size: small;
-}
+} */
 #stl{
     width:240px;
     height: 100px;
@@ -74,3 +74,4 @@
 #ul1 li a:hover{
     color:#5e068a
 }
+
