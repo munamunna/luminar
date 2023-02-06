@@ -163,13 +163,19 @@ span{
 }
 #card{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
  @media(max-width:600px){
     
     
    #hid {
        display: none; 
+    }
+    .carousel-caption h1 {
+font-size: 9pt;
+    }
+    .card-body p{
+        font-size: 1pt;
     }
 }
     
@@ -179,16 +185,13 @@ span{
     
 
 
+#card {
+    inline-size: min-content;
+  }
 
 
 
 
-  
-#card{
-    margin-left: 30px;
-    display: flex;
-   justify-content: center;
-}
 @media screen and (min-width: 1900px) {
     #card{
         margin-left: 300px;
