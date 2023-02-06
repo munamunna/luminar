@@ -1,6 +1,7 @@
 #btn{
-    background-color: #5e068a;
+    background-color: hsl(280, 92%, 28%);
     width: 200px;
+    
     height: 50px;
     border-radius: 10px;
     border: none;
@@ -8,7 +9,7 @@
     padding: 5px;
 }
 
-.carousel-inner{
+/* .carousel-inner{
     position: relative;
  }
 .carousel-caption {
@@ -18,20 +19,23 @@
 .carousel-caption .head{
     margin-right: 1200px;
     width: 600px;
+   
     height: 150px;
     text-align: left;
  }
  .carousel-caption #margn{
     margin-right: 1200px;
     width:200px;
+    
     height:100px;
     background-color: blue;
     border-radius: 50px;
     border: none;
- }
+ } */
  #bttn{
     background-color: #5e068a;
     width: 200px;
+    
     height: 50px;
     
     border: none;
@@ -48,15 +52,15 @@
 
  #middlhead{
     color:purple;
+    
 }
 #headr{
     color: #5e068a99
 }
-/* #si p{
-    font-size: small;
-} */
+
 #stl{
     width:240px;
+    
     height: 100px;
     background-color: purple;
     color: white;
@@ -79,12 +83,13 @@ span{
 }
 #clr{
     text-align: center;
+    width: 100%;
 }
 #id1{
     width: 100%;
     
     
-    margin-left: 300px;
+    /* margin-left: 300px; */
     transition: 1s ease-in-out;
 }
 #im1{
@@ -98,24 +103,27 @@ span{
 }
 #id2{
     width: 100%;
-    margin-left: 300px;
+    /* margin-left: 300px; */
 }
 #i{
     display: block;
 }
 
 .baax{
-    width:100%;
+    
     position: sticky;
     top: 0;
     z-index: 100;
+    background-color: white;
+    
+    
 }
 #card{
     width:100%;
+
     
     
-    margin-left: 300px;
-    margin-top: 30px;
+   
     
 }
 
@@ -141,10 +149,11 @@ span{
     color:#5e068a;
     background-color: white;
     width:250px;
+    
     height:100px;
     border: #5e068a solid 1px;
     border-radius: 50px;
-    margin-left: 400px;
+   
 
 }
 #animbtn:hover{
@@ -154,5 +163,41 @@ span{
 }
 #card{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
+ @media(max-width:600px){
+    
+    
+   #hid {
+       display: none; 
+    }
+}
+    
+
+   
+   
+    
+
+
+
+
+
+
+  
+#card{
+    margin-left: 30px;
+    display: flex;
+   justify-content: center;
+}
+@media screen and (min-width: 1900px) {
+    #card{
+        margin-left: 300px;
+    }
+    #animbtn{
+        margin-left: 500px;
+    }
+    
+  }
+
+ 
+    
