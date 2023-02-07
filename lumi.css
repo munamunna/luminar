@@ -118,19 +118,9 @@ span{
     
     
 }
-#card{
-    width:100%;
 
-    
-    
-   
-    
-}
 
-.card{
-    margin-top: 40px;
-    
-}
+
 .card-body{
     height: 300px;
     margin-top: 20px;
@@ -161,7 +151,9 @@ span{
     color: white;
     
 }
+
 #card{
+    
     display: flex;
     justify-content: space-around;
 }
@@ -173,9 +165,11 @@ span{
     }
     .carousel-caption h1 {
 font-size: 9pt;
+
     }
-    .card-body p{
-        font-size: 1pt;
+    .carousel-caption p {
+       font-size: 9pt;
+       word-wrap: break-word;
     }
 }
     
@@ -185,9 +179,9 @@ font-size: 9pt;
     
 
 
-#card {
-    inline-size: min-content;
-  }
+.clas1{
+width: 100%;
+}
 
 
 
@@ -201,6 +195,7 @@ font-size: 9pt;
     }
     
   }
+
 
  
     
